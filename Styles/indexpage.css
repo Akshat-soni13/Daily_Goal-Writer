@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfa8f0;
+    height: max-content;
+    /* width: 87vw; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container {
+    margin-top: 40rem;
+    height: 100vh;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.container h1 {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    /* Adjust size as needed */
+    font-weight: 700;
+    /* Use 400 for regular, 700 for bold */
+    text-align: center;
+    color: #333;
+    /* color:white; */
+    /* Adjust color as needed */
+    margin: 0;
+    padding: 0;
+
+}
+
+.Instruction,
+.Author {
+    margin-top: 2rem;
+}
+
+
+.content {
+    margin-top: 2rem;
+    height: 20rem;
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.autc {
+    margin-top: 2rem;
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: justify;
+    background-color: #fff;
+}
+
+.upper {
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+}
+
+.box {
+    height: 1rem;
+    width: 1rem;
+    /* background-color: orange; */
+    border: 2px solid black;
+    margin-left: 1rem;
+    border-radius: 50%;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.maincontent {
+    height: 86%;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.maincontent p {
+    color: blanchedalmond;
+
+}
+
+
+.a1 {
+    width: 40rem;
+}
+
+.Autho {
+    padding: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.Author img {
+    border-radius: 50%;
+    height: 19vh;
+}
+
+button {
+    background-color: #EE66A6;
+    /* Green background */
+    color: #000000;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-family: 'Times New Roman', cursive;    
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+/* Description Section Styling */
+.description {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: justify;
+    padding: 40px 20px;
+    background-color: #f9f9f92c;
+    /* Light background for contrast */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.description h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Soft text shadow */
+}
+
+.description p {
+    font-family: "Edu AU VIC WA NT Hand",cursive, serif;
+    font-size: 24px;
+    color: #111010;
+    
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.description p:last-child {
+    margin-bottom: 0;
+}
+
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+    /* Adjust size as needed */
+    font-weight: 700;
+    /* Use 400 for regular, 700 for bold */
+    text-align: center;
+    color: #c08b8b;
+    /* Adjust color as needed */
+    margin: 0;
+    padding: 0;
+}
+
+/* Author Description Styling */
+.authordescription {
+    text-align: left;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+
+
+.bio {
+    font-family: "Edu AU VIC WA NT Hand", serif, cursive;
+    font-size: 14px;
+    color: #555;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.bio:last-child {
+    margin-bottom: 0;
+    /* Remove margin for the last paragraph */
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.conr {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+.Logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.hhh {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.hhh h1{
+    color:#5E3A7E ;
+
+}
+.hhh img {
+    width: 10vw;
+    height: 10vw;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.Logo {
+    position: sticky;
+    top: 0;
+    left: 10px;
+    height: 300px;
+    width: 200px;
+
+}
+.daba
+{
+    /* background-color: #fff; */
+    height: 27em;
+}
+.coloropt
+{
+    /* background-color: #fff; */
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+#one
+{
+    color: white;
+    
+
+}
+.Alin
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    /* border: 2px solid white; */
+}
+.links
+{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+.two
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: green; */
+    width: 40%;
+}
+@media (max-width:1080px) {
+    body {
+        flex-direction: column;
+        position: relative;
+        top: 0px;
+    }
+
+    .container {
+        margin-top: 35rem;
+    }
+
+
+    .Logo {
+        display: none;
+    }
+}
+
+@media (max-width:940px) {
+    .autc {
+        height: 40vh;
+        width: 60vw;
+    }
+}
+
+@media (max-width:860px) {
+    .autc {
+        height: 50vh;
+
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+    
+
+}
+
+@media (max-width:720px) {
+    .description {
+        top: 250px;
+        padding: 5px 20px;
+    }
+
+    .hhh img {
+    
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .con,
+    .conr {
+        flex-direction: column;
+    }
+    .Author
+    {
+        height: 40rem;
+    }
+    
+    .features,.instruction {
+        margin-top: 40vh;
+    }
+    .authorimage
+    {
+        display: none;
+    }
+}
+
+@media (max-width:540px) {
+    .autc {
+        width: 80vw;
+    }
+
+    .description {
+        top: 260px;
+        margin: 10px;
+    }
+
+    .hhh h1 {
+        font-size: 2.5rem;
+    }
+  .links .nnn{
+    display: none;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+  }
+}
+@media (max-width:480px){
+    .autc{
+        width: 90vw;
+    }
+    .content{
+        width: 90vw;
+    }
+    .description{
+        top: 320px;
+    }
+    .description p{
+        font-size: 18px;
+    }
+}
+@media (max-width:420px){
+    .description{
+        top: 400px;
+    }
+    .authorimage{
+        display: none;
+    }
+    .features {
+        margin-top: 44vh;
+    }
+    .hhh{
+        align-items: center;
+    }
+    
+}
