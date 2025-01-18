@@ -27,7 +27,11 @@ Explore the two core components and their functionalities:
 ### 🔍 How to Use
 Maximize productivity with these tools. Here's how to get started:
 
-#### Download this whole code as Zip
+
+#### 1 Download this whole code as Zip
+#### 2 Clone This Repository :
+    git clone https://github.com/Akshat-soni13/Projects.git
+            
 
 #### Calendar-Based Sticky Notes To-Do List:
 1. *🏠 Start with the Introduction Page*: Open the application by launching the index.html. You will be greeted with an introduction page that explains the tools.
