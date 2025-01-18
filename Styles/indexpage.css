@@ -412,11 +412,37 @@ button:hover {
         width: 90vw;
     }
     .description{
-        top: 320px;
+        top: 270px;
+        margin: auto;
     }
     .description p{
         font-size: 18px;
     }
+    .instruction
+    {
+        margin-top: 27rem;
+    }
+    .Features
+    {
+        margin-top: 7rem;
+    }
+    .Author
+    {
+        margin-top: 7rem;
+    }
+    .content
+    {
+        height: 30rem;
+    }
+    .daba
+    {
+        height: 37rem;
+    }
+   .container
+   {
+    margin-top: 70rem;
+   }
+    
 }
 @media (max-width:420px){
     .description{
