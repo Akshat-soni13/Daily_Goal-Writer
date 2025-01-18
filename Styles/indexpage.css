@@ -457,5 +457,29 @@ button:hover {
     .hhh{
         align-items: center;
     }
+    .instruction
+    {
+        margin-top: 27rem;
+    }
+    .Features
+    {
+        margin-top: 7rem;
+    }
+    .Author
+    {
+        margin-top: 7rem;
+    }
+    .content
+    {
+        height: 30rem;
+    }
+    .daba
+    {
+        height: 37rem;
+    }
+   .container
+   {
+    margin-top: 70rem;
+   }
     
 }
